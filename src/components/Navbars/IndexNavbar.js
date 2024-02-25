@@ -51,7 +51,7 @@ export default function IndexNavbar() {
       document.documentElement.scrollTop > 99 ||
       document.body.scrollTop > 99
     ) {
-      setColor("bg-info");
+      setColor("bg-default");
     } else if (
       document.documentElement.scrollTop < 100 ||
       document.body.scrollTop < 100
