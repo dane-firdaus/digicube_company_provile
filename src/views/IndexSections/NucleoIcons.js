@@ -26,15 +26,14 @@ export default function NucleoIcons() {
       <Container>
         <Row className="justify-content-center">
           <Col lg="8" md="12">
-            <h2 className="title">Nucleo Icons</h2>
+            <h2 className="title">Solusi Software untuk bisnis digital</h2>
             <h4 className="description">
-              BLK• Design System PRO comes with 100 custom icons made by our
-              friends from NucleoApp. The official package contains over 2.100
-              thin icons which are looking great in combination with BLK• Design
-              System PRO Make sure you check all of them and use those that you
-              like the most.
+              Di DIGICUBE, kami bermitra dengan pelaku usaha internet sharing provider dan internet service provider,
+              kami memanfaatkan keahlian kami untuk menyediakan software yang dapat membantu setiap proses yang rumit dalam bisnis,
+              Komitmen kami terletak pada pemberdayaan kemitraan,
+              memastikan mitra kami menavigasi era digital ini dengan percaya diri dan efisiensi yang tak tertandingi.
             </h4>
-            <div className="btn-wrapper">
+            {/* <div className="btn-wrapper">
               <Button
                 className="btn-round"
                 color="primary"
@@ -54,11 +53,11 @@ export default function NucleoIcons() {
               >
                 View All Icons
               </Button>
-            </div>
+            </div> */}
           </Col>
         </Row>
         <div className="blur-hover">
-          <a href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons">
+          <a href="">
             <div className="icons-container blur-item on-screen mt-5">
               {/* Center */}
               <i className="icon tim-icons icon-coins" />
@@ -79,8 +78,8 @@ export default function NucleoIcons() {
               <i className="icon tim-icons icon-tap-02" />
               <i className="icon tim-icons icon-wallet-43" />
             </div>
-            <span className="blur-hidden h5 text-primary">
-              Eplore all the 21.000+ Nucleo Icons
+            <span className="blur-hidden h1 text-warning">
+              DiGICUBE dipercaya oleh lebih dari 82.000+ pelaku usaha dibidang digital 
             </span>
           </a>
         </div>
