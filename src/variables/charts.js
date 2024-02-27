@@ -28,7 +28,7 @@ const bigChart = {
 
     return {
       labels: [
-        "JUN",
+        "JAN",
         "FEB",
         "MAR",
         "APR",
@@ -53,12 +53,12 @@ const bigChart = {
           pointBackgroundColor: "#1d8cf8",
           pointBorderColor: "rgba(255,255,255,0)",
           pointHoverBackgroundColor: "#5464ed",
-          //pointHoverBorderColor:'rgba(35,46,55,1)',
+          pointHoverBorderColor:'rgba(35,46,55,1)',
           pointBorderWidth: 20,
           pointHoverRadius: 4,
           pointHoverBorderWidth: 15,
           pointRadius: 4,
-          data: [80, 160, 200, 160, 250, 280, 220, 190, 200, 250, 290, 320],
+          data: [2, 48, 1018, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         },
       ],
     };

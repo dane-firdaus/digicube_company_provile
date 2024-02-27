@@ -47,8 +47,10 @@ import NucleoIcons from "views/IndexSections/NucleoIcons.js";
 import Signup from "views/IndexSections/Signup.js";
 import Examples from "views/IndexSections/Examples.js";
 import Download from "views/IndexSections/Download.js";
+import { useNavigate } from "react-router-dom";
 
 export default function Index() {
+  const navigate = useNavigate();
   React.useEffect(() => {
     document.body.classList.toggle("index-page");
     // Specify how to clean up after this effect:
@@ -56,6 +58,9 @@ export default function Index() {
       document.body.classList.toggle("index-page");
     };
   }, []);
+  const handleGetHotel = () => {
+    navigate('/homenet-page');
+  }
   return (
     <>
       <IndexNavbar />
@@ -93,7 +98,7 @@ export default function Index() {
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Homenet Apps</h4>
-                        <span>Benefit & Feature</span>
+                        <span>Untuk RT / RW Net</span>
                         <hr className="line-warning" />
                       </Col>
                     </Row>
@@ -109,8 +114,8 @@ export default function Index() {
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button className="btn-simple" color="warning">
-                      See More
+                    <Button className="btn-simple" color="warning" onClick={handleGetHotel}>
+                      Get Plan
                     </Button>
                   </CardFooter>
                 </Card>
@@ -121,22 +126,26 @@ export default function Index() {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/etherum.png")}
+                      src={require("assets/img/ispPlus.png")}
                     />
                   </CardHeader>
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">ISP Plus Apps</h4>
-                        <span>Plan</span>
+                        <span>Untuk Internet Service Provider</span>
                         <hr className="line-success" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>150 messages</ListGroupItem>
-                        <ListGroupItem>1000 emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
+                        <ListGroupItem>Multy Payment Methode</ListGroupItem>
+                        <ListGroupItem>Monitoring Feature</ListGroupItem>
+                        <ListGroupItem>Auto Isolir Client</ListGroupItem>
+                        <ListGroupItem>Comission Fee</ListGroupItem>
+                        <ListGroupItem>Layanan Iklan Gratis</ListGroupItem>
+                        <ListGroupItem>Aplikasi Client {`(Broadband)`}</ListGroupItem>
+                        <ListGroupItem>Free 3 Custom Feature</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
@@ -160,7 +169,7 @@ export default function Index() {
                     <Row>
                       <Col className="text-center" md="12">
                         <h4 className="text-uppercase">Hotel Service Apps</h4>
-                        <span>Benefit & Feature</span>
+                        <span>Untuk Perhotelan</span>
                         <hr className="line-info" />
                       </Col>
                     </Row>
@@ -177,8 +186,8 @@ export default function Index() {
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button className="btn-simple" color="info">
-                      See More
+                    <Button className="btn-simple" color="info" >
+                      Get Plan
                     </Button>
                   </CardFooter>
                 </Card>
@@ -186,15 +195,110 @@ export default function Index() {
             </Row>
           </Container>
         </section>
-          <Basics />
-          <Navbars />
-          <Tabs />
+        <section className="section section-lg section-safe">
+          <img
+            alt="..."
+            className="path"
+            src={require("assets/img/path5.png")}
+          />
+          <Container>
+            <Row className="row-grid justify-content-between">
+              <Col md="5">
+                <img
+                  alt="..."
+                  className="img-fluid floating"
+                  src={require("assets/img/automatic.jpg")}
+                />
+                <Card className="card-stats bg-danger">
+                  <CardBody>
+                    <div className="justify-content-center">
+                      <div className="numbers">
+                        <CardTitle tag="p">100%</CardTitle>
+                        <p className="card-category text-white">Maintainly</p>
+                      </div>
+                    </div>
+                  </CardBody>
+                </Card>
+                <Card className="card-stats bg-info">
+                  <CardBody>
+                    <div className="justify-content-center">
+                      <div className="numbers">
+                        <CardTitle tag="p">573 K</CardTitle>
+                        <p className="card-category text-white">
+                          End Users
+                        </p>
+                      </div>
+                    </div>
+                  </CardBody>
+                </Card>
+                <Card className="card-stats bg-default">
+                  <CardBody>
+                    <div className="justify-content-center">
+                      <div className="numbers">
+                        <CardTitle tag="p">12.000+</CardTitle>
+                        <p className="card-category text-white">Business</p>
+                      </div>
+                    </div>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="6">
+                <div className="px-md-5">
+                  <hr className="line-success" />
+                  <h3>Bisnis Mudah dengan Automatisasi</h3>
+                  <p>
+                    Software yang kami dibuat dengan research pada banyak mitra kami.
+                    sehingga kami bisa menyediakan setiap automatisasi pada bisnis proses yang terjadi pada bisnis partner kami.
+                    setiap invasi yang kami tuangkan adalah apa yang bisnis anda butuhkan.
+                    sehingga anda hanya perlu memikirkan pemasaran dan pengembangan bisnis anda
+                    tanpa takut ada yang terlewatkan pada proses bisnis anda.
+                  </p>
+                  <ul className="list-unstyled mt-5">
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div className="icon icon-success mb-2">
+                          <i className="tim-icons icon-vector" />
+                        </div>
+                        <div className="ml-3">
+                          <h6>Optimalisasi System dan automatisasi</h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div className="icon icon-success mb-2">
+                          <i className="tim-icons icon-tap-02" />
+                        </div>
+                        <div className="ml-3">
+                          <h6>Mudah untuk dioperasikan dan diimplementasikan</h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div className="icon icon-success mb-2">
+                          <i className="tim-icons icon-single-02" />
+                        </div>
+                        <div className="ml-3">
+                          <h6>Team Support yang super friendly sedia selalu 7/24</h6>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+          {/* <Basics /> */}
+          {/* <Navbars /> */}
+          {/* <Tabs />
           <Pagination />
           <Notifications />
           <Typography />
           <JavaScript />
           <Signup />
-          <Examples />
+          <Examples /> */}
           <Download />
         </div>
         <Footer />
