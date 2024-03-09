@@ -31,13 +31,11 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              Do you love this Bootstrap 4 React Design System?
+              Apapun kebutuhan & pertanyaan anda, kami selalu ada menanti kabar anda !
             </h2>
             <h4 className="description">
-              Cause if you do, it can be yours for FREE. Hit the button below to
-              navigate to Creative Tim where you can find the design system in
-              React format. Start a new project or give an old Bootstrap project
-              a new look!
+              Anda bisa konsultasi dengan team ahli kami untuk konsultasi seputar bisnis anda dan product kami yang kami sediakan untuk membantu bisnis anda,
+              admin kami siap melayani anda 7 / 24. kami selalu senang dengan kabar yang anda berikan saat anda berkonsultasi dengan kami.
             </h4>
           </Col>
           <Col className="text-center" lg="8" md="12">
@@ -48,7 +46,7 @@ export default function Download() {
               role="button"
               size="lg"
             >
-              Download React
+              Let's Talk with us !
             </Button>
           </Col>
         </Row>
@@ -69,14 +67,14 @@ export default function Download() {
           <Col className="text-lg-center btn-wrapper" lg="6">
             <Button
               className="btn-icon btn-round"
-              color="twitter"
+              color="instagram"
               id="twitter"
               size="lg"
             >
-              <i className="fab fa-twitter" />
+              <i className="fab fa-instagram" />
             </Button>
             <UncontrolledTooltip delay={0} target="twitter">
-              Tweet!
+              Chat !
             </UncontrolledTooltip>
             <Button
               className="btn-icon btn-round"
@@ -91,16 +89,16 @@ export default function Download() {
             </UncontrolledTooltip>
             <Button
               className="btn-icon btn-round"
-              color="github"
+              color="twitter"
               href="https://github.com/creativetimofficial"
               id="tooltip877922017"
               size="lg"
               target="_blank"
             >
-              <i className="fab fa-github" />
+              <i className="fab fa-linkedin" />
             </Button>
             <UncontrolledTooltip delay={0} target="tooltip877922017">
-              Star on Github
+              follow on linkedin !
             </UncontrolledTooltip>
           </Col>
         </Row>

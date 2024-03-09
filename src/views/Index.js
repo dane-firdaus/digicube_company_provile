@@ -247,7 +247,7 @@ export default function Index() {
                   <hr className="line-success" />
                   <h3>Bisnis Mudah dengan Automatisasi</h3>
                   <p>
-                    Software yang kami dibuat dengan research pada banyak mitra kami.
+                    Software yang kami kembangkan dengan research pada banyak mitra kami.
                     sehingga kami bisa menyediakan setiap automatisasi pada bisnis proses yang terjadi pada bisnis partner kami.
                     setiap invasi yang kami tuangkan adalah apa yang bisnis anda butuhkan.
                     sehingga anda hanya perlu memikirkan pemasaran dan pengembangan bisnis anda

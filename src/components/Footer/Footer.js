@@ -35,7 +35,11 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+          <img
+            alt="..."
+            style={{height: 50}}
+            src={require("assets/img/logos.png")}
+          />
           </Col>
           <Col md="3">
             <Nav>
@@ -95,7 +99,7 @@ export default function Footer() {
                 id="tooltip622135962"
                 target="_blank"
               >
-                <i className="fab fa-twitter" />
+                <i className="fab fa-instagram" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip622135962">
                 Follow us
@@ -119,7 +123,7 @@ export default function Footer() {
                 id="tooltip318450378"
                 target="_blank"
               >
-                <i className="fab fa-dribbble" />
+                <i className="fab fa-linkedin" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip318450378">
                 Follow us

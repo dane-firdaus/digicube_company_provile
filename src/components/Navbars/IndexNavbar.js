@@ -86,7 +86,7 @@ export default function IndexNavbar() {
           />
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+            Digicube Technology Solution | EST 2023
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -204,15 +204,15 @@ export default function IndexNavbar() {
                 Products
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
-                <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
+                <DropdownItem tag={Link} to="/homenet-page">
                   <i className="tim-icons icon-atom" />
                   Homenet App
                 </DropdownItem>
-                <DropdownItem tag={Link} to="/register-page">
+                <DropdownItem >
                   <i className="tim-icons icon-atom" />
                   ISP Plus App
                 </DropdownItem>
-                <DropdownItem tag={Link} to="/landing-page">
+                <DropdownItem>
                   <i className="tim-icons icon-atom" />
                   Hotel Service App
                 </DropdownItem>

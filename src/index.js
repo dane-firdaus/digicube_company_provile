@@ -28,6 +28,8 @@ import LandingPage from "views/examples/LandingPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import HomenetPage from "views/pages/Homenet";
+import ComingSoonPage from "views/pages/comingSoon";
+import HomenetRegisterPage from "views/pages/homenetRegister";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -39,6 +41,8 @@ root.render(
       <Route path="/register-page" element={<RegisterPage />} />
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/homenet-page" element={<HomenetPage />} />
+      <Route path="/coming-soon" element={< ComingSoonPage/>} />
+      <Route path="/homenet-register" element={< HomenetRegisterPage/>} />
       <Route path="*" element={<Navigate to="/components" replace />} />
     </Routes>
   </BrowserRouter>
