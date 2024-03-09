@@ -130,9 +130,9 @@ export default function IndexNavbar() {
                 href="https://twitter.com/CreativeTim"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="Follow us on Twitter"
+                title="Follow us on LinkedIn"
               >
-                <i className="fab fa-twitter" />
+                <i className="fab fa-linkedin" />
                 <p className="d-lg-none d-xl-none">Twitter</p>
               </NavLink>
             </NavItem>
@@ -175,15 +175,15 @@ export default function IndexNavbar() {
               <DropdownMenu className="dropdown-with-icons">
                 <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
                   <i className="tim-icons icon-paper" />
-                  Documentation
+                  About Us
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/register-page">
                   <i className="tim-icons icon-bullet-list-67" />
-                  Register Page
+                  Career
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/landing-page">
                   <i className="tim-icons icon-image-02" />
-                  Landing Page
+                  Contact
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/profile-page">
                   <i className="tim-icons icon-single-02" />
@@ -205,20 +205,16 @@ export default function IndexNavbar() {
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
                 <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
-                  <i className="tim-icons icon-paper" />
-                  Documentation
+                  <i className="tim-icons icon-atom" />
+                  Homenet App
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/register-page">
-                  <i className="tim-icons icon-bullet-list-67" />
-                  Register Page
+                  <i className="tim-icons icon-atom" />
+                  ISP Plus App
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/landing-page">
-                  <i className="tim-icons icon-image-02" />
-                  Landing Page
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/profile-page">
-                  <i className="tim-icons icon-single-02" />
-                  Profile Page
+                  <i className="tim-icons icon-atom" />
+                  Hotel Service App
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
